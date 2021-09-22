@@ -15,12 +15,12 @@ async function get(battery, phn_info) {
 
   return {
     msg:
-      `*×ARCH×*\n\n*Battery:* ${batttxt}\n*Device:* ${phn_info.device_manufacturer} ${phn_info.device_model}\n*WA Version:* ${phn_info.wa_version}\n*Whatsbot Version:* ${packageJson.version}\n*Pmpermit:* ${config.pmpermit_enabled}\n\n*All Systems Fine*\n` +
+      `*×Thunder Bird Online×*\n\n*About Op = Only Pain Life is a Shit*\n\n*Battery:* ${batttxt}\n*Device:* ${phn_info.device_manufacturer} ${phn_info.device_model}\n*WA Version:* ${phn_info.wa_version}\n*Whatsbot Version:* ${packageJson.version}\n*Pmpermit:* ${config.pmpermit_enabled}\n\n*All Systems Fine*\n` +
       "GCP-LINUX-ARCH",
     mimetype: "image/jpeg",
     data: Buffer.from(
       (
-        await axios.get("https://telegra.ph/file/ecbc27f276890bf2f65a2.jpg", {
+        await axios.get("https://telegra.ph/file/f9bec89230fc983594264.jpg", {
           responseType: "arraybuffer",
         })
       ).data
