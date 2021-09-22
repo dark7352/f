@@ -107,14 +107,14 @@ async function handler(id) {
     return {
       permit: false,
       block: false,
-      msg: `*✋ Wait*\n\n Please wait until I will get back to Online, Kindly don't send another message.\n\n _Powered by WhatsBot_`,
+      msg: `*Ruko Jara Sabar Kao*\n\n I will come online soon.\n\n ✍️Samrat`,
     };
   } else if (checkPermit.found && !checkPermit.permit) {
     if (checkPermit.times > 3) {
       return {
         permit: false,
         block: true,
-        msg: `*❌ Blocked*\n\n You have been blocked for spamming.\n\n _Powered by WhatsBot_`,
+        msg: `*❌ Blocked*\n\n You have been blocked for spamming.\n\n Khatam Tata 😂`,
       };
     } else {
       var updateIt = await updateviolant(id, checkPermit.times + 1);
@@ -126,7 +126,7 @@ async function handler(id) {
       return {
         permit: false,
         block: false,
-        msg: `*✋ Wait*\n\nPlease wait until I will get back to Online, Kindly don't send another message. You have ${checkPermit.times} warning(s).\n\n _Powered by WhatsBot_`,
+        msg: `*Ruko Jara Sabar Karo*\n\nPlease wait until I will get back to Online, Kindly don't send another message. You have ${checkPermit.times} warning(s).\n\n -Samrat`,
       };
     }
   } else {
