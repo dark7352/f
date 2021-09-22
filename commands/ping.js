@@ -1,9 +1,9 @@
 //jshint esversion:6
 
-const execute = (client,msg) => msg.reply('pong');
+const execute = (client,msg) => msg.reply('p on g');
 
 module.exports = {
-    name: 'Ping',
+    name: 'boot',
     description: 'responds with pong',
     command: '!ping',
     commandType: 'info',
