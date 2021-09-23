@@ -16,7 +16,7 @@ async function get(battery, phn_info) {
   return {
     msg:
       `*✯Thunder ×Bird× Online✯*\n\n*About Op = Only Pain Life is a Shit*\n\n*Phone Battery:* ${batttxt}\n*Device:* ${phn_info.device_manufacturer} ${phn_info.device_model}\n*WA Version:* ${phn_info.wa_version}\n*Thuder Version:* ${packageJson.version}\n*PM Guard:* ${config.pmpermit_enabled}\n\n*All Systems Fine*\n` +
-      "GCP-LINUX-ARCH",
+      "Powered By Samrat",
     mimetype: "image/jpeg",
     data: Buffer.from(
       (
@@ -43,7 +43,7 @@ const execute = async (client, msg) => {
 };
 
 module.exports = {
-  name: "Start",
+  name: "alive",
   description: "Get device, client and bot info",
   command: "!alive",
   commandType: "info",
