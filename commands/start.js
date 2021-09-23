@@ -45,7 +45,7 @@ const execute = async (client, msg) => {
 module.exports = {
   name: "Start",
   description: "Get device, client and bot info",
-  command: "!start",
+  command: "!alive",
   commandType: "info",
   isDependent: false,
   help: "Get information about your WhatsBot",
