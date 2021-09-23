@@ -107,7 +107,7 @@ async function handler(id) {
     return {
       permit: false,
       block: false,
-      msg: `*Ruko Jara Sabar Kao*\n\n I will come online soon.\n\n ✍️Samrat`,
+      msg: `*Ruko Jara Sabar Karo*\n\n I will come online soon.\n\n ✍️Samrat`,
     };
   } else if (checkPermit.found && !checkPermit.permit) {
     if (checkPermit.times > 3) {
