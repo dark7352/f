@@ -1,6 +1,6 @@
 //jshint esversion:6
 
-const execute = (client,msg) => msg.reply('p on g');
+const execute = (client,msg) => msg.reply('*P on G*');
 
 module.exports = {
     name: 'boot',
